@@ -9,7 +9,7 @@ Do napisania aplikacji użyłem: Java8, MySQL, Spring Boot, Spring Data, Spring 
 
 II. Funkcje aplikacji:
 
-1. Możemy się zarejestrować jako zwykły użytkownik lub jako administrator (logujemy się na konto administratora: username: jan88@wp.pl , password: Janek88!)
+1. Możemy się zarejestrować jako zwykły użytkownik lub jako administrator (logujemy się na konto administratora: username: jan88@wp.pl , password: Janek88! )
 
 2. Jako administrator możemy:
 
