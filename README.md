@@ -14,10 +14,15 @@ II. Funkcje aplikacji:
 2. Jako administrator możemy:
 
 a) importować z pliku znajdującego się na dysku listę nowych użytkowników 
+
 b) przeglądać listę dodanych użytkowników (paginacja x 10)
+
 c) znaleźć użytkownika po jego danych personalnych
+
 d) usuwać użytkowników
+
 e) zmieniać rolę i aktywność użytkownika
+
 f) edytować swoje dane personalne oraz zmieniać hasło
 
 3. Jako użytkownik możemy:
@@ -27,6 +32,7 @@ a) zmieniać swoje dane personalne oraz hasło
 4. Aplikacja:
 
 a) sprawdza poprawność wprowadzanych danych
+
 b) szyfruje hasło
 
 
