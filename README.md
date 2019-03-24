@@ -8,3 +8,5 @@ Uruchomienie:
 "Baza do projektu AdminPanel1" wraz z zawartością
 
 3. w przegladarce wpisujemy http://localhost: + port (u mnie 8080)
+
+4. logujemy się na konto administratora: username: jan@wp.pl , password: Janek88!
