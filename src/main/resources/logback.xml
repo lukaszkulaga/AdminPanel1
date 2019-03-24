@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<!-- ten appender pokazuje logi -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender"> <!-- standardowym wyjsciem jest konsola ... ta klasa wyswietla na konsoli info o tym co sie dzieje -->
+		<encoder> <!-- wzorzec wedlug ktorego logi wysylane przez aplikacje beda formatowane -->
+			<pattern>
+			<!-- w nawiasie kwadratowym mamy parametr ktory przychodzi z kontenera -->
+				[%d{yyyy-MM-dd' 'HH:mm:ss' '}] [%C] [%t] [%L] [%-5p] %m%n <!-- C  - z jakiej klasy pochodzi log/info o operacji , t - jaka metoda  -->
+			</pattern>
+		</encoder>
+	</appender>
+	
+	<!-- ten appender wrzuca logi do pliku -->
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<encoder>
+			<pattern>
+				[%d{yyyy-MM-dd' 'HH:mm:ss' '}] [%C] [%t] [%L] [%-5p] %m%n
+			</pattern>
+		</encoder>
+		<file> java/Apka.log</file> <!-- plik do ktorego zapisujemy logi -->
+		
+		<!-- co ma sie dziac z logami jak osiagniemy juz jakis rozmiar pamieci -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy"> <!-- definicja logu -->
+			<fileNamePattern>java/archived/Apka_%d{dd-MM-yyyy}_%i.log</fileNamePattern> <!-- definicja archiwum logu -->
+			<maxFileSize>2MB</maxFileSize> <!--maksymalny rozmiar pliku ... jak przekroczymy to plik trafia do archiwum... -->
+			<maxHistory>10</maxHistory> <!-- ile plikow archiwalnych chcemy przechowywac -->
+			<totalSizeCap>25MB</totalSizeCap> <!-- miejsce na te logi -->
+		</rollingPolicy>
+	</appender>
+	
+	<!-- okreslamy jaki poziom logowania nas interesuje  -->
+	<root level="INFO"> <!-- wszystko do poziomu INFO bedzie ladowalo w konsoli i w katalogu -->
+		<appender-ref ref="STDOUT"/> <!-- konsola  -->
+		<appender-ref ref="FILE"/> <!-- katalog/plik -->
+	</root>
+
+	<!-- co ma byc logowane z hibernate -->
+	<logger name="org.hibernate" additivity="false" level="INFO">
+		<appender-ref ref="FILE"/>
+	</logger>
+	
+	<logger name="org.springframework.web" additivity="false" level="INFO">
+		<appender-ref ref="FILE"/>
+	</logger>
+	
+	<logger name="lukasz.Apka" additivity="false" level="DEBUG">
+		<appender-ref ref="FILE"/>
+	</logger>
+
+</configuration>

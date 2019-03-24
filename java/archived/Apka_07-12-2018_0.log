@@ -1,0 +1,93 @@
+[2018-12-07 13:54:07 ] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting ApkaApplication on lukasz-CX61-2PF with PID 16108 (started by lukasz in /home/lukasz/Documents/workspace-sts-3.9.5.SPRING/Apkaaa___Lekcja_17_usuwanie rekordu (uzytkownika) z bazy)
+[2018-12-07 13:54:07 ] [org.springframework.boot.StartupInfoLogger] [main] [53] [DEBUG] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+[2018-12-07 13:54:07 ] [org.springframework.boot.SpringApplication] [main] [675] [INFO ] No active profile set, falling back to default profiles: default
+[2018-12-07 13:54:08 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [126] [INFO ] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2018-12-07 13:54:08 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [182] [INFO ] Finished Spring Data repository scanning in 64ms. Found 3 repository interfaces.
+[2018-12-07 13:54:08 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [330] [INFO ] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85f798ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-12-07 13:54:08 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [330] [INFO ] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$1ea56108] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-12-07 13:54:08 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [330] [INFO ] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-12-07 13:54:08 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [330] [INFO ] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ad54c55' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-12-07 13:54:08 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [330] [INFO ] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$437a03ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-12-07 13:54:08 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [330] [INFO ] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-12-07 13:54:08 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [330] [INFO ] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$577e600] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-12-07 13:54:09 ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [90] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2018-12-07 13:54:09 ] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2018-12-07 13:54:09 ] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2018-12-07 13:54:09 ] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2018-12-07 13:54:09 ] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+[2018-12-07 13:54:09 ] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2018-12-07 13:54:09 ] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2018-12-07 13:54:09 ] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 2210 ms
+[2018-12-07 13:54:09 ] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean] [main] [248] [INFO ] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-12-07 13:54:09 ] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean] [main] [248] [INFO ] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-12-07 13:54:09 ] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean] [main] [248] [INFO ] Mapping filter: 'formContentFilter' to: [/*]
+[2018-12-07 13:54:09 ] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean] [main] [248] [INFO ] Mapping filter: 'requestContextFilter' to: [/*]
+[2018-12-07 13:54:09 ] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean] [main] [248] [INFO ] Mapping filter: 'springSecurityFilterChain' to: [/*]
+[2018-12-07 13:54:09 ] [org.springframework.boot.web.servlet.ServletRegistrationBean] [main] [186] [INFO ] Servlet dispatcherServlet mapped to [/]
+[2018-12-07 13:54:10 ] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2018-12-07 13:54:10 ] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2018-12-07 13:54:10 ] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-12-07 13:54:10 ] [org.hibernate.Version] [main] [46] [INFO ] HHH000412: Hibernate Core {5.3.7.Final}
+[2018-12-07 13:54:10 ] [org.hibernate.cfg.Environment] [main] [213] [INFO ] HHH000206: hibernate.properties not found
+[2018-12-07 13:54:10 ] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [49] [INFO ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2018-12-07 13:54:10 ] [org.hibernate.dialect.Dialect] [main] [157] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-12-07 13:54:10 ] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [415] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-12-07 13:54:11 ] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] [main] [47] [INFO ] HHH000397: Using ASTQueryTranslatorFactory
+[2018-12-07 13:54:11 ] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ] Creating filter chain: Ant [pattern='/resources/**'], []
+[2018-12-07 13:54:11 ] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ] Creating filter chain: Ant [pattern='/statics/**'], []
+[2018-12-07 13:54:11 ] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ] Creating filter chain: Ant [pattern='/css/**'], []
+[2018-12-07 13:54:11 ] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ] Creating filter chain: Ant [pattern='/js/**'], []
+[2018-12-07 13:54:11 ] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ] Creating filter chain: Ant [pattern='/images/**'], []
+[2018-12-07 13:54:11 ] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ] Creating filter chain: Ant [pattern='/incl/**'], []
+[2018-12-07 13:54:11 ] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e794f53, org.springframework.security.web.context.SecurityContextPersistenceFilter@284c4f02, org.springframework.security.web.header.HeaderWriterFilter@14dbfdb1, org.springframework.security.web.authentication.logout.LogoutFilter@16e907b6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@315cf170, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a43a88e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75a226ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75f4d8a8, org.springframework.security.web.session.SessionManagementFilter@5fbae40, org.springframework.security.web.access.ExceptionTranslationFilter@ff2266c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e1a9173]
+[2018-12-07 13:54:12 ] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [171] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2018-12-07 13:54:12 ] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [main] [234] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2018-12-07 13:54:12 ] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [61] [INFO ] Adding welcome page template: index
+[2018-12-07 13:54:12 ] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [main] [86] [INFO ] 
+
+Using generated security password: 62a714fd-3846-48e0-8d9b-e86f3b7970af
+
+[2018-12-07 13:54:12 ] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2018-12-07 13:54:12 ] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Using a shared selector for servlet write/read
+[2018-12-07 13:54:12 ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [204] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2018-12-07 13:54:12 ] [org.springframework.boot.StartupInfoLogger] [main] [59] [INFO ] Started ApkaApplication in 5.684 seconds (JVM running for 6.173)
+[2018-12-07 13:55:12 ] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2018-12-07 13:55:12 ] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [521] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2018-12-07 13:55:12 ] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [543] [INFO ] Completed initialization in 16 ms
+[2018-12-07 13:55:13 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-4] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:55:16 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-10] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:55:16 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-1] [1248] [WARN ] No mapping for GET /resources/images/stamperror.jpg
+[2018-12-07 13:55:18 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-4] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:55:19 ] [lukasz.Apka.admin.AdminPageController] [http-nio-8080-exec-6] [148] [INFO ] **** WYWOLANO > openAdminAllUsersPage(1,{})
+[2018-12-07 13:55:19 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-7] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:55:19 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-8] [1248] [WARN ] No mapping for GET /resources/images/deliconinact.png
+[2018-12-07 13:55:19 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-9] [1248] [WARN ] No mapping for GET /resources/images/delicon.png
+[2018-12-07 13:55:22 ] [lukasz.Apka.admin.AdminPageController] [http-nio-8080-exec-1] [437] [DEBUG] [WYWOŁANIE >>> AdminPageController.deleteUser > PARAMETR: 57
+[2018-12-07 13:55:22 ] [lukasz.Apka.admin.AdminServiceImpl] [http-nio-8080-exec-1] [159] [DEBUG] [WYWOŁANIE >>> AdminServiceImpl.deleteUserById > PARAMETR: 57
+[2018-12-07 13:55:22 ] [lukasz.Apka.admin.AdminServiceImpl] [http-nio-8080-exec-1] [160] [DEBUG] [WYWOŁANIE >>> AdminRepository.deleteUserFromUserRole > PARAMETR: 57
+[2018-12-07 13:55:23 ] [lukasz.Apka.admin.AdminServiceImpl] [http-nio-8080-exec-1] [162] [DEBUG] [WYWOŁANIE >>> AdminRepository.deleteUserFromUser > PARAMETR: 57
+[2018-12-07 13:55:23 ] [lukasz.Apka.admin.AdminPageController] [http-nio-8080-exec-2] [148] [INFO ] **** WYWOLANO > openAdminAllUsersPage(1,{})
+[2018-12-07 13:55:23 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-3] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:55:23 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-4] [1248] [WARN ] No mapping for GET /resources/images/deliconinact.png
+[2018-12-07 13:55:23 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-5] [1248] [WARN ] No mapping for GET /resources/images/delicon.png
+[2018-12-07 13:58:21 ] [lukasz.Apka.admin.AdminPageController] [http-nio-8080-exec-1] [148] [INFO ] **** WYWOLANO > openAdminAllUsersPage(2,{})
+[2018-12-07 13:58:21 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-2] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:58:21 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-3] [1248] [WARN ] No mapping for GET /resources/images/delicon.png
+[2018-12-07 13:58:27 ] [lukasz.Apka.admin.AdminPageController] [http-nio-8080-exec-4] [324] [INFO ] **** WYWOLANO > openAdminAllUsersPage(luk,2,{})
+[2018-12-07 13:58:27 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-6] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:59:02 ] [lukasz.Apka.mainControllerr.MainPageController] [http-nio-8080-exec-7] [22] [INFO ] **** WYWOŁANO > showMainPage()
+[2018-12-07 13:59:02 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-9] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:59:04 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-2] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:59:07 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-4] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:59:09 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-7] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:59:10 ] [lukasz.Apka.admin.AdminPageController] [http-nio-8080-exec-10] [148] [INFO ] **** WYWOLANO > openAdminAllUsersPage(1,{})
+[2018-12-07 13:59:10 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-1] [1248] [WARN ] No mapping for GET /resources/css/style.css
+[2018-12-07 13:59:10 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-2] [1248] [WARN ] No mapping for GET /resources/images/delicon.png
+[2018-12-07 13:59:10 ] [org.springframework.web.servlet.DispatcherServlet] [http-nio-8080-exec-3] [1248] [WARN ] No mapping for GET /resources/images/deliconinact.png
+[2018-12-07 14:02:33 ] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(18)-127.0.0.1] [164] [INFO ] Application shutdown requested.
+[2018-12-07 14:02:33 ] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(18)-127.0.0.1] [208] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2018-12-07 14:02:33 ] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(18)-127.0.0.1] [597] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2018-12-07 14:02:33 ] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(18)-127.0.0.1] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2018-12-07 14:02:33 ] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(18)-127.0.0.1] [352] [INFO ] HikariPool-1 - Shutdown completed.

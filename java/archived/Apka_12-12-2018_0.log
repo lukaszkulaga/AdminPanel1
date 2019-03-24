@@ -1,0 +1,4 @@
+[2018-12-12 20:31:56 ] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting ApkaApplication on lukasz-CX61-2PF with PID 6367 (started by lukasz in /home/lukasz/Documents/workspace-sts-3.9.5.SPRING/Apkaaa___Lekcja_17_usuwanie rekordu (uzytkownika) z bazy)
+[2018-12-12 20:31:56 ] [org.springframework.boot.StartupInfoLogger] [main] [53] [DEBUG] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+[2018-12-12 20:31:56 ] [org.springframework.boot.SpringApplication] [main] [675] [INFO ] No active profile set, falling back to default profiles: default
+[2018-12-12 20:32:00 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [126] [INFO ] Bootstrapping Spring Data repositories in DEFAULT mode.
